@@ -1,5 +1,9 @@
 h1. Count Von Count
 
+h2. Disclaimer
+
+The code in here still needs lots of love.
+
 h2. Installation
 
 <pre><code>script/plugin install git://github.com/toastyapps/count_von_count.git
