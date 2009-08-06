@@ -2,8 +2,7 @@ h1. Count Von Count
 
 h2. Installation
 
-<pre><code>
-script/plugin install git://github.com/toastyapps/count_von_count.git
+<pre><code>script/plugin install git://github.com/toastyapps/count_von_count.git
 script/generate count_migration
 rake db:migrate
 </code></pre>
@@ -11,9 +10,8 @@ rake db:migrate
 h2. Usage
 
 From inside your controller action you may now do
-<pre><code>
-	@post = Post.find(params[:id])
-	@post.update_view_count(request)
+<pre><code>@post = Post.find(params[:id])
+@post.update_view_count(request)
 </code></pre>
 
 You also get a view_count helper method
